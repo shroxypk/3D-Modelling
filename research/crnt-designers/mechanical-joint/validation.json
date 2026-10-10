@@ -1,0 +1,56 @@
+{
+  "JointArm": {
+    "base": {
+      "vertices": 738,
+      "faces": 736,
+      "nonquads": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "components": 1
+    },
+    "evaluated": {
+      "vertices": 11778,
+      "faces": 11776,
+      "nonquads": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "components": 1
+    }
+  },
+  "JointArmOpposite": {
+    "base": {
+      "vertices": 738,
+      "faces": 736,
+      "nonquads": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "components": 1
+    },
+    "evaluated": {
+      "vertices": 11778,
+      "faces": 11776,
+      "nonquads": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "components": 1
+    }
+  },
+  "JointAxle": {
+    "base": {
+      "vertices": 930,
+      "faces": 928,
+      "nonquads": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "components": 1
+    },
+    "evaluated": {
+      "vertices": 14850,
+      "faces": 14848,
+      "nonquads": 0,
+      "nonmanifold_edges": 0,
+      "zero_area_faces": 0,
+      "components": 1
+    }
+  }
+}

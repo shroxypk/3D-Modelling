@@ -1,0 +1,29 @@
+{
+  "base": {
+    "vertices": 376,
+    "faces": 380,
+    "nonquads": 16,
+    "components": 1,
+    "boundary_edges": 14,
+    "internal_nonmanifold": 0,
+    "degenerate_faces": 0
+  },
+  "mirror_only": {
+    "vertices": 738,
+    "faces": 760,
+    "nonquads": 32,
+    "components": 1,
+    "boundary_edges": 0,
+    "internal_nonmanifold": 0,
+    "degenerate_faces": 0
+  },
+  "evaluated": {
+    "vertices": 34010,
+    "faces": 34016,
+    "nonquads": 0,
+    "components": 1,
+    "boundary_edges": 0,
+    "internal_nonmanifold": 0,
+    "degenerate_faces": 0
+  }
+}

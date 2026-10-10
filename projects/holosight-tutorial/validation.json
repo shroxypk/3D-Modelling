@@ -1,0 +1,42 @@
+{
+  "01 | Hood": {
+    "base_faces": 14,
+    "base_quads": 14,
+    "evaluated_faces": 114,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1
+  },
+  "00 | Rail alignment placeholder": {
+    "base_faces": 14,
+    "base_quads": 14,
+    "evaluated_faces": 14,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1
+  },
+  "02 | Inner housing": {
+    "base_faces": 1085,
+    "base_quads": 976,
+    "evaluated_faces": 1085,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1
+  },
+  "03 | Rear glass": {
+    "base_faces": 100,
+    "base_quads": 100,
+    "evaluated_faces": 240,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1
+  },
+  "04 | Front glass": {
+    "base_faces": 100,
+    "base_quads": 100,
+    "evaluated_faces": 240,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1
+  }
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "kind": "upright",
+    "center": [
+      0,
+      -1.68,
+      1.75
+    ],
+    "nominal_radius": 0.53,
+    "hits": 360,
+    "mean_radius": 0.5239295931326018,
+    "min_radius": 0.5238339304924011,
+    "max_radius": 0.5241253972053528
+  },
+  {
+    "kind": "upright",
+    "center": [
+      0,
+      1.68,
+      1.75
+    ],
+    "nominal_radius": 0.53,
+    "hits": 360,
+    "mean_radius": 0.5239296032322778,
+    "min_radius": 0.5238339304924011,
+    "max_radius": 0.5241253972053528
+  },
+  {
+    "kind": "mount",
+    "center": [
+      0,
+      -3.56,
+      0.06
+    ],
+    "nominal_radius": 0.34,
+    "hits": 360,
+    "mean_radius": 0.3360207381347815,
+    "min_radius": 0.33596155047416687,
+    "max_radius": 0.3361428380012512
+  },
+  {
+    "kind": "mount",
+    "center": [
+      0,
+      3.56,
+      0.06
+    ],
+    "nominal_radius": 0.34,
+    "hits": 360,
+    "mean_radius": 0.33602074533700943,
+    "min_radius": 0.33596137166023254,
+    "max_radius": 0.3361428678035736
+  },
+  {
+    "shared_upright_axis_clear": true,
+    "mount_axes_clear": [
+      true,
+      true
+    ]
+  }
+]

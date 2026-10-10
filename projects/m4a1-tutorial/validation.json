@@ -1,0 +1,130 @@
+{
+  "01 | Front cylinder shell": {
+    "faces": 192,
+    "quads": 192,
+    "connected_components": 1,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "max_face_warp": 1.7695128917694092e-08,
+    "base": {
+      "faces": 192,
+      "quads": 192,
+      "boundary_edges": 0,
+      "boundary_edges_off_y_mirror_plane": 0,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "04 | Visible central cylinder": {
+    "faces": 48,
+    "quads": 48,
+    "connected_components": 1,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "max_face_warp": 7.450580596923828e-09,
+    "base": {
+      "faces": 48,
+      "quads": 48,
+      "boundary_edges": 0,
+      "boundary_edges_off_y_mirror_plane": 0,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "02 | Handguard base extrusion": {
+    "faces": 196,
+    "quads": 196,
+    "connected_components": 2,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "max_face_warp": 1.4901161193847656e-08,
+    "base": {
+      "faces": 98,
+      "quads": 98,
+      "boundary_edges": 40,
+      "boundary_edges_off_y_mirror_plane": 0,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "05 | Upper rail extrusion": {
+    "faces": 370,
+    "quads": 370,
+    "connected_components": 1,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "max_face_warp": 3.725290298461914e-09,
+    "base": {
+      "faces": 370,
+      "quads": 370,
+      "boundary_edges": 0,
+      "boundary_edges_off_y_mirror_plane": 0,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "06 | Lower front rail extrusion": {
+    "faces": 82,
+    "quads": 82,
+    "connected_components": 1,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "max_face_warp": 0,
+    "base": {
+      "faces": 82,
+      "quads": 82,
+      "boundary_edges": 0,
+      "boundary_edges_off_y_mirror_plane": 0,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "03 | Side strips and integral ribs": {
+    "faces": 1176,
+    "quads": 1048,
+    "connected_components": 1,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "max_face_warp": 0.00012117298319935799,
+    "base": {
+      "faces": 544,
+      "quads": 544,
+      "boundary_edges": 212,
+      "boundary_edges_off_y_mirror_plane": 0,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "07 | Stock front collar": {
+    "faces": 18,
+    "quads": 16,
+    "connected_components": 1,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "max_face_warp": 2.464469162077876e-07,
+    "base": {
+      "faces": 18,
+      "quads": 16,
+      "boundary_edges": 0,
+      "boundary_edges_off_y_mirror_plane": 0,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  },
+  "08 | Stock crown tutorial restart": {
+    "faces": 190,
+    "quads": 180,
+    "connected_components": 1,
+    "nonmanifold_edges": 68,
+    "zero_area_faces": 0,
+    "max_face_warp": 8.560496098652948e-07,
+    "base": {
+      "faces": 95,
+      "quads": 90,
+      "boundary_edges": 59,
+      "boundary_edges_off_y_mirror_plane": 34,
+      "edges_with_more_than_two_faces": 0,
+      "zero_area_faces": 0
+    }
+  }
+}

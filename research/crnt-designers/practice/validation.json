@@ -1,0 +1,32 @@
+[
+  {
+    "root_segments": 1,
+    "vertices": 124,
+    "faces": 96,
+    "nonquads": 0,
+    "components": 1,
+    "boundary_edges": 56,
+    "internal_nonmanifold": 0,
+    "degenerate_faces": 0,
+    "root_midline_sample_count": 5,
+    "target_root_radius": 0.4,
+    "root_midline_max_radius_error": 0.119265619890219,
+    "evaluated_nonmanifold_edges": 0,
+    "evaluated_degenerate_faces": 0
+  },
+  {
+    "root_segments": 4,
+    "vertices": 145,
+    "faces": 114,
+    "nonquads": 0,
+    "components": 1,
+    "boundary_edges": 62,
+    "internal_nonmanifold": 0,
+    "degenerate_faces": 0,
+    "root_midline_sample_count": 11,
+    "target_root_radius": 0.4,
+    "root_midline_max_radius_error": 0.010174515223010328,
+    "evaluated_nonmanifold_edges": 0,
+    "evaluated_degenerate_faces": 0
+  }
+]

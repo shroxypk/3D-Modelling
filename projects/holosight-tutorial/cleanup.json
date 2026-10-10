@@ -1,0 +1,12 @@
+{
+  "moved_tutorial_frames": 172,
+  "removed_files": [
+    "C:\\Users\\Dell\\Downloads\\3D\\projects\\holosight-tutorial\\review\\front-body.png",
+    "C:\\Users\\Dell\\Downloads\\3D\\projects\\holosight-tutorial\\source\\__pycache__\\cap.cpython-313.pyc",
+    "C:\\Users\\Dell\\Downloads\\3D\\projects\\holosight-tutorial\\source\\__pycache__\\housing.cpython-313.pyc",
+    "C:\\Users\\Dell\\Downloads\\3D\\projects\\holosight-tutorial\\source\\__pycache__\\inner_housing.cpython-313.pyc",
+    "C:\\Users\\Dell\\Downloads\\3D\\projects\\holosight-tutorial\\source\\__pycache__\\lenses.cpython-313.pyc",
+    "C:\\Users\\Dell\\Downloads\\3D\\projects\\holosight-tutorial\\source\\__pycache__\\slot.cpython-313.pyc"
+  ],
+  "reason": "Pixel-identical duplicate render and regenerable bytecode only. Model and source references retained."
+}

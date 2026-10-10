@@ -1,0 +1,324 @@
+{
+  "CurvedPanel": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "Panel_0_1": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "Panel_0_2": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "Panel_0_3": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "Panel_1_0": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "Panel_1_1": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "Panel_1_2": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "Panel_1_3": {
+    "base": {
+      "faces": 448,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 7168,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "ParentTube": {
+    "base": {
+      "faces": 768,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 12288,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_0_0": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_1_0": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "MiddleBand_0": {
+    "base": {
+      "faces": 300,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 4800,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_0_1": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_1_1": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "MiddleBand_1": {
+    "base": {
+      "faces": 300,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 4800,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_0_2": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_1_2": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "MiddleBand_2": {
+    "base": {
+      "faces": 300,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 4800,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_0_3": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "VerticalBand_1_3": {
+    "base": {
+      "faces": 232,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 3712,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "MiddleBand_3": {
+    "base": {
+      "faces": 300,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 4800,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "EndRimBottom": {
+    "base": {
+      "faces": 576,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 9216,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  },
+  "EndRimTop": {
+    "base": {
+      "faces": 576,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    },
+    "evaluated": {
+      "faces": 9216,
+      "nonquads": 0,
+      "nonmanifold": 0,
+      "zero_area": 0
+    }
+  }
+}

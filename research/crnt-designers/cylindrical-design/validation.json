@@ -1,0 +1,16 @@
+{
+  "base": {
+    "vertices": 450,
+    "faces": 448,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0
+  },
+  "evaluated": {
+    "vertices": 7170,
+    "faces": 7168,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0
+  }
+}

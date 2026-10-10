@@ -1,0 +1,27 @@
+{
+  "intersections": {
+    "JointArm / JointArmOpposite": 0,
+    "JointArm / JointAxle": 0,
+    "JointArmOpposite / JointAxle": 0
+  },
+  "roundness": {
+    "0": {
+      "samples": 720,
+      "min_radius": 0.4780361816258507,
+      "max_radius": 0.4781816637868359,
+      "radial_spread_percent": 0.03043020632961695
+    },
+    "-0.445": {
+      "samples": 720,
+      "min_radius": 0.4801001818866548,
+      "max_radius": 0.4802463536016876,
+      "radial_spread_percent": 0.030442994671148773
+    },
+    "0.445": {
+      "samples": 720,
+      "min_radius": 0.479975047183411,
+      "max_radius": 0.48012109316791324,
+      "radial_spread_percent": 0.03042474118109849
+    }
+  }
+}

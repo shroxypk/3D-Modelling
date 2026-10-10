@@ -1,0 +1,39 @@
+{
+  "stage": "Connected recesses, boundary supports, live Mirror and Subdivision",
+  "vertices": 1892,
+  "faces": 1838,
+  "nonquads": 0,
+  "nonmanifold_edges": 106,
+  "zero_area_faces": 0,
+  "min_face_area": 8.774921298027039e-05,
+  "base_half": {
+    "vertices": 1892,
+    "faces": 1838,
+    "nonquads": 0,
+    "nonmanifold_edges": 106,
+    "zero_area_faces": 0,
+    "components": 1,
+    "signed_volume": 0.14373966408103925
+  },
+  "base_boundaries_on_mirror": true,
+  "mirrored_base": {
+    "vertices": 3678,
+    "faces": 3676,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "signed_volume": 0.2874793281620784
+  },
+  "subdivision": {
+    "vertices": 58818,
+    "faces": 58816,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1,
+    "signed_volume": 0.2876802120955141
+  },
+  "minimum_nominal_floor_thickness": 0.019,
+  "rectangle_correction": "Explicit four-segment quarter-circle corners, tangent straight sides, width 2.48, height .91, outer radius .12, maximum depth .025."
+}

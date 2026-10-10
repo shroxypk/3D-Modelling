@@ -1,0 +1,18 @@
+{
+  "stage": "Center groove, planar caps and underside supports built; visual review required",
+  "mirror_base": {
+    "vertices": 1182,
+    "faces": 1180,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0
+  },
+  "subdivision_2": {
+    "vertices": 18882,
+    "faces": 18880,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0
+  },
+  "quarter_vertices": 320
+}

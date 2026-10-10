@@ -1,0 +1,39 @@
+{
+  "stage": "Pipe fitting study pass: geometry and visual review completed",
+  "base_half": {
+    "vertices": 748,
+    "faces": 714,
+    "nonquads": 10,
+    "nonmanifold_edges": 82,
+    "zero_area_faces": 0,
+    "components": 1
+  },
+  "mirrored_base": {
+    "vertices": 1414,
+    "faces": 1428,
+    "nonquads": 20,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1
+  },
+  "notes": "Mostly quads with 20 triangles in the full base junctions; bore radius and recess dimensions visually estimated from the tutorial; no claim of exact mesh equivalence.",
+  "subdivision": {
+    "vertices": 22764,
+    "faces": 22768,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0,
+    "components": 1
+  },
+  "open_passages": {
+    "main_vertical": true,
+    "both_branches": true
+  },
+  "recess_floor_heights": [
+    0.13407,
+    0.13407,
+    0.13407,
+    0.13407
+  ],
+  "base_boundaries_on_mirror": true
+}

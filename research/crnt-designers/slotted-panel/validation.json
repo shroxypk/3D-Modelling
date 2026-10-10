@@ -1,0 +1,25 @@
+{
+  "base": {
+    "vertices": 1354,
+    "faces": 1354,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0
+  },
+  "subdivision": {
+    "vertices": 21664,
+    "faces": 21664,
+    "nonquads": 0,
+    "nonmanifold_edges": 0,
+    "zero_area_faces": 0
+  },
+  "stage": "First visual review completed; normalized reconstruction, see README for limitations",
+  "reviewed_views": [
+    "model",
+    "front",
+    "side",
+    "underside",
+    "base",
+    "topology"
+  ]
+}
