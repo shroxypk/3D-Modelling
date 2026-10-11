@@ -1,0 +1,10 @@
+{
+  "merged_triangle_pairs": 14,
+  "vertex_positions_unchanged": true,
+  "outside_cap_faces_unchanged": true,
+  "second_pass": {
+    "merged_triangle_pairs": 0,
+    "vertex_positions_unchanged": true
+  },
+  "blend_sha256": "05bce1ae37fae649579ee5953813bfe0ab7b6b08577c0a8d87d2774096e2ecb6"
+}

@@ -16,9 +16,9 @@
     "components": 1
   },
   "02 | Inner housing": {
-    "base_faces": 1085,
-    "base_quads": 976,
-    "evaluated_faces": 1085,
+    "base_faces": 1071,
+    "base_quads": 990,
+    "evaluated_faces": 1071,
     "nonmanifold_edges": 0,
     "zero_area_faces": 0,
     "components": 1

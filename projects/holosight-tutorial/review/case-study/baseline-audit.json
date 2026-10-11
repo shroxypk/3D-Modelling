@@ -1,0 +1,320 @@
+{
+  "blender": "5.2.1 LTS",
+  "blend_sha256": "05bce1ae37fae649579ee5953813bfe0ab7b6b08577c0a8d87d2774096e2ecb6",
+  "source_sha256": {
+    "audit_current.py": "abf7ceb5185581faee30a353b387a0e76cb9ada0d5a5bfea183f8dc3ceef7a08",
+    "build.py": "008962f2ea5f8f4e4f23397b56edd240349417c3e14c9f893a01dde1ef3aaf5a",
+    "cap.py": "d7ae5debb34b09a682ccc61d01f6c83d27ab4c31a937247cb40f4972f89e97df",
+    "housing.py": "e4a4cf36c6b6f26eb4bcdb8e66d8d870630355238b6707cb7d4dc408106b5902",
+    "review_corners.py": "c08eca8764bb6020e6ef70decf4e8ffe10c178667f01156ea1f125f91131dc7d",
+    "review_current.py": "11440772c1ccc6cdb9bc0d460c8c4c95ca66a55ba1c5813f3b97ffdc4b536768",
+    "review_video.py": "b0dd8e369f4ff9c7f2a8f837d179027be7d5f945d7251d1f59d94707754dcc37",
+    "slot.py": "c6983d5d9efd4076d57dd994bc5fac00877b0a1c0a461e2405806ff6a2202507",
+    "validate.py": "51e4a9e9e5206a486c6286e1948acf6428f9d36a7cce29a4fd48c07faf6e258b"
+  },
+  "objects": {
+    "01 | Hood": {
+      "base": {
+        "vertices": 30,
+        "edges": 43,
+        "faces": 14,
+        "quads": 14,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 30,
+        "nonmanifold_edges": 30,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 0.033029817044734955,
+        "minimum_edge_length": 0.05560573935508728,
+        "smooth_faces": 0,
+        "mesh_sha256": "13d5d5c6d4eab8762c61917497c4b9eee72325aba5fbc005f998c5d3ee3b1ec9",
+        "tessellated_triangles": 28
+      },
+      "evaluated": {
+        "vertices": 116,
+        "edges": 228,
+        "faces": 114,
+        "quads": 114,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 0.0017575537785887718,
+        "minimum_edge_length": 0.035999979823827744,
+        "smooth_faces": 0,
+        "mesh_sha256": "4f66a8b980687c979b21306236b29e5397e29dac53d5a536ed2933699abb08f1",
+        "tessellated_triangles": 228
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.8199999928474426,
+        1.0399999618530273,
+        1.0013082027435303
+      ],
+      "modifiers": [
+        {
+          "name": "Center symmetry",
+          "type": "MIRROR",
+          "viewport": true,
+          "render": true
+        },
+        {
+          "name": "Shell thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "render": true
+        }
+      ],
+      "hidden_render": false,
+      "uv_layers": 0,
+      "material_slots": 0
+    },
+    "00 | Rail alignment placeholder": {
+      "base": {
+        "vertices": 16,
+        "edges": 28,
+        "faces": 14,
+        "quads": 14,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 0.009335999377071857,
+        "minimum_edge_length": 0.04699999839067459,
+        "smooth_faces": 0,
+        "mesh_sha256": "52bc900a084f24068a365b1907894693133235abeff140730334e1fe604bd864",
+        "tessellated_triangles": 28
+      },
+      "evaluated": {
+        "vertices": 16,
+        "edges": 28,
+        "faces": 14,
+        "quads": 14,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 0.009335999377071857,
+        "minimum_edge_length": 0.04699999839067459,
+        "smooth_faces": 0,
+        "mesh_sha256": "52bc900a084f24068a365b1907894693133235abeff140730334e1fe604bd864",
+        "tessellated_triangles": 28
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.3319999873638153,
+        1.3200000524520874,
+        0.12299999594688416
+      ],
+      "modifiers": [],
+      "hidden_render": false,
+      "uv_layers": 0,
+      "material_slots": 0
+    },
+    "02 | Inner housing": {
+      "base": {
+        "vertices": 1065,
+        "edges": 2150,
+        "faces": 1085,
+        "quads": 976,
+        "triangles": 97,
+        "ngons": 12,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 6.528571248054504e-07,
+        "minimum_edge_length": 4.355276905698702e-05,
+        "smooth_faces": 0,
+        "mesh_sha256": "17d6eafc0f7edea00e0378da0f4065d502614337cab8ae90361fe097a13f1398",
+        "tessellated_triangles": 2130
+      },
+      "evaluated": {
+        "vertices": 1065,
+        "edges": 2150,
+        "faces": 1085,
+        "quads": 976,
+        "triangles": 97,
+        "ngons": 12,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 6.528571248054504e-07,
+        "minimum_edge_length": 4.355276905698702e-05,
+        "smooth_faces": 0,
+        "mesh_sha256": "17d6eafc0f7edea00e0378da0f4065d502614337cab8ae90361fe097a13f1398",
+        "tessellated_triangles": 2130
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.8360000848770142,
+        1.435304880142212,
+        0.9100000262260437
+      ],
+      "modifiers": [],
+      "hidden_render": false,
+      "uv_layers": 0,
+      "material_slots": 1
+    },
+    "03 | Rear glass": {
+      "base": {
+        "vertices": 121,
+        "edges": 220,
+        "faces": 100,
+        "quads": 100,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 40,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 0.00018544122576713562,
+        "minimum_edge_length": 0.017108019441366196,
+        "smooth_faces": 0,
+        "mesh_sha256": "45e2442b3e3fc0715cd7b313bf7511808e047facb3805ac65010789b3d580aac",
+        "tessellated_triangles": 200
+      },
+      "evaluated": {
+        "vertices": 242,
+        "edges": 480,
+        "faces": 240,
+        "quads": 240,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 5.980357309454121e-05,
+        "minimum_edge_length": 0.003000020980834961,
+        "smooth_faces": 0,
+        "mesh_sha256": "ded0005211b141f976b55331d10c94725c241b80ea4f163fbfe9d6dd8da42b75",
+        "tessellated_triangles": 480
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.5939886569976807,
+        0.003000110387802124,
+        0.46081775426864624
+      ],
+      "modifiers": [
+        {
+          "name": "Glass thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "render": true
+        }
+      ],
+      "hidden_render": false,
+      "uv_layers": 0,
+      "material_slots": 0
+    },
+    "04 | Front glass": {
+      "base": {
+        "vertices": 121,
+        "edges": 220,
+        "faces": 100,
+        "quads": 100,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 40,
+        "nonmanifold_edges": 40,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 0.00018544122576713562,
+        "minimum_edge_length": 0.017108019441366196,
+        "smooth_faces": 0,
+        "mesh_sha256": "6ae3b54400fc0158858eb4c1adddb7131a1872ac5018e8c20c2913e55066d827",
+        "tessellated_triangles": 200
+      },
+      "evaluated": {
+        "vertices": 242,
+        "edges": 480,
+        "faces": 240,
+        "quads": 240,
+        "triangles": 0,
+        "ngons": 0,
+        "components": 1,
+        "boundary_edges": 0,
+        "nonmanifold_edges": 0,
+        "loose_edges": 0,
+        "loose_vertices": 0,
+        "zero_area_faces_at_1e-10": 0,
+        "minimum_face_area": 5.980290734441951e-05,
+        "minimum_edge_length": 0.00299999862909317,
+        "smooth_faces": 0,
+        "mesh_sha256": "b134b437ac964db710560592c71122525a26cd50ee3a02d46acfcd7e6876b761",
+        "tessellated_triangles": 480
+      },
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": [
+        0.5939886569976807,
+        0.003000020980834961,
+        0.46081775426864624
+      ],
+      "modifiers": [
+        {
+          "name": "Glass thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "render": true
+        }
+      ],
+      "hidden_render": false,
+      "uv_layers": 0,
+      "material_slots": 0
+    }
+  },
+  "limits": [
+    "No intersection, duplicate-surface or reference-fit certification.",
+    "Base boundaries can be intentional before Mirror/Solidify.",
+    "Source reconstruction equivalence is not established by this audit.",
+    "UV/export checks are deferred until that production stage."
+  ]
+}

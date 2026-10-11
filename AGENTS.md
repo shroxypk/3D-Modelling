@@ -6,7 +6,10 @@ mesh validation and focused captures. Webita's connector is an installed, disabl
 Do not launch the extensions' nested AI agents or upstream autonomous iteration controllers.
 
 Follow the user's tutorial sequentially and compare against their supplied reference assets.
-Preserve `M4A1/` as source/reference; the active modeled result is in `projects/m4a1-tutorial/`.
+The active case study is `projects/holosight-tutorial/`. Read its `WORKFLOW.md` and
+`CASE_STUDY.md` before modeling. Complete and visually review this asset before
+generalizing the workflow or moving to a second asset.
+Preserve `M4A1/` as source/reference; earlier modeled work is in `projects/m4a1-tutorial/`.
 Match base silhouette, thickness, seating, depths and connected parts before adding subdivision.
 Favor clear mostly-quad flow; use enough density for shape without gratuitous loops or forced terminations.
 Use live Mirror where appropriate. A 16-sided circular base is preferred when sufficient.

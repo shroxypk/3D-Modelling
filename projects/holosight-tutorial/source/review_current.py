@@ -14,6 +14,7 @@ data.type='ORTHO';data.ortho_scale=2.15;target=Vector((0,.12,.5))
 def camera(delta):
     cam.location=target+Vector(delta);cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler()
 camera((3,4,2));s.render.filepath=str(ROOT/'model.png');bpy.ops.render.render(write_still=True)
+camera((0,0,5));s.render.filepath=str(ROOT/'review'/'top.png');bpy.ops.render.render(write_still=True)
 for obj in list(s.objects):
     if obj.type!='MESH':continue
     ev=obj.evaluated_get(bpy.context.evaluated_depsgraph_get());me=ev.to_mesh()
@@ -26,6 +27,7 @@ for obj in list(s.objects):
 camera((5,0,0));s.render.filepath=str(ROOT/'review'/'side.png');bpy.ops.render.render(write_still=True)
 camera((3,4,2));s.render.filepath=str(ROOT/'topology.png');bpy.ops.render.render(write_still=True)
 camera((0,-5,0));s.render.filepath=str(ROOT/'review'/'front.png');bpy.ops.render.render(write_still=True)
+camera((0,0,5));s.render.filepath=str(ROOT/'review'/'top-topology.png');bpy.ops.render.render(write_still=True)
 
 # Isolated profile for judging the lower body without the hood occluding it.
 for obj in s.objects:

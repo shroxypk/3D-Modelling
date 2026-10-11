@@ -39,4 +39,10 @@ def build(ob):
     floors=[e for e in bm.edges if len(e.link_faces)==2 and all(abs(v.co.x-.448)<1e-5 for f in e.link_faces for v in f.verts)]
     if floors:bmesh.ops.dissolve_edges(bm,edges=floors,use_verts=True,use_face_split=False)
     bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(ob.data);bm.free();ob.data.update()
+    # Local, shape-preserving cleanup also used on the saved checkpoint.
+    import importlib.util
+    from pathlib import Path
+    spec=importlib.util.spec_from_file_location('refine_cap',Path(__file__).with_name('refine_cap.py'))
+    refinement=importlib.util.module_from_spec(spec);spec.loader.exec_module(refinement)
+    refinement.refine(ob)
     ob['Tutorial stage']='Ep.1 ~52:00: raised grip teeth and open-ended diagonal screwdriver slot; final edge finishing pending.'

@@ -1,6 +1,6 @@
 # Holosight — unfinished tutorial study
 
-Open **Holosight.blend** to inspect the current saved scene in Blender 5.2. The working environment is preserved. No modeling changes were made for this repository upload.
+Open **Holosight.blend** to inspect the current saved scene in Blender 5.2. The working environment is preserved. See the [case-study audit and acceptance record](CASE_STUDY.md) and [user's workflow directive](WORKFLOW.md).
 
 ![Current model](model.png)
 ![Current topology](topology.png)
@@ -20,9 +20,10 @@ Some triangles are acceptable when they preserve the intended form and shading. 
 
 - `review/`: focused authored model and topology images. Tutorial captures in `review/tutorial-frames/` remain local and are not uploaded.
 - `STATUS.md`: chronological construction history; later entries supersede earlier counts and claims.
-- `validation.json`: last saved geometric checks, not a new audit or a visual quality certificate. The housing report records 1,085 faces, 976 quads, one evaluated component, no nonmanifold edges and no zero-area faces.
+- `validation.json`: regenerated in Blender on 11 October 2026, not a visual quality certificate. The housing report records 1,071 faces, 990 quads, one evaluated component, no nonmanifold edges and no zero-area faces. `review/audit.json` adds base/evaluated fingerprints, modifiers, loose geometry, face types and raw size measurements.
 - `source/build.py`: rebuilds the named tutorial geometry in the existing project scene, then saves over `Holosight.blend`. Do not run it over unsynchronized manual changes. Open the existing blend first; this is not a standalone factory-scene initializer.
 - `source/housing.py`, `cap.py`, `slot.py`: geometry constructors called by the build.
+- `source/refine_cap.py`: the local cap-face cleanup applied to the saved checkpoint and called by `slot.py`. Removes eligible internal triangle diagonals without moving vertices. `check_cap_refinement.py` tests it in a disposable Blender process and renders the candidate without saving the blend.
 - `source/review_current.py`: run in a separate Blender process to generate temporary review renders; it never saves lighting/camera overrides to the working blend.
 - `source/validate.py`: inspects the currently loaded project geometry and writes the report.
 - `source/review_video.py`: local frame extraction using the original MP4 under the workspace `vids/` folder. Run separately; it changes the temporary scene's sequencer.
