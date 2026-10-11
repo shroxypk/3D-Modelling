@@ -1,0 +1,16 @@
+{
+  "previous_cap_front_faces": 112,
+  "cap_front_faces": 2,
+  "removed_front_faces": 110,
+  "housing_faces": 961,
+  "boundary_and_outside_faces_unchanged": true,
+  "outside_cap_faces_unchanged": true,
+  "second_pass": {
+    "previous_cap_front_faces": 2,
+    "cap_front_faces": 2,
+    "removed_front_faces": 0,
+    "housing_faces": 961,
+    "boundary_and_outside_faces_unchanged": true
+  },
+  "blend_sha256": "7f8627024b7f8a99d62fce21bbb83ebec44ed7b68f841b543abfaefa9831e6cf"
+}

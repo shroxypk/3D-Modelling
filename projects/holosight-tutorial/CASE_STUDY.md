@@ -1,6 +1,6 @@
 # Holosight case study — 11 October 2026
 
-**Outcome: Needs revision.** The first local correction is verified; neither the full asset nor the current tutorial stage has final visual acceptance.
+**Current outcome: Needs revision for the overall checkpoint; cap-front layout passes with notes for this flat, non-subdivision stage.** The two-step correction history below is retained. Full-asset proportions, finishing and shoulder review remain open.
 
 ## Scope and progression
 
@@ -54,4 +54,17 @@ See [current audit](review/audit.json), [validation](validation.json), and [dry-
 4. **Final asset review:** intended form, materials and finishing accepted against supplied references. Only then establish and verify the required game-engine delivery settings.
 5. **Transfer test:** use a second structurally different asset to determine which review/validation operations deserve reuse. Asset-specific constructors remain separate.
 
-**Single next action:** inspect the remaining slot-end junctions against the next consecutive tutorial frames, then choose a local layout that preserves the cap contour and gives a clean, editable slot boundary. Do not proceed to later features until this checkpoint has a documented visual decision.
+**Single next action:** inspect the shoulder-to-cap transition under a reflection-friendly review setup and compare its profile against the tutorial before advancing to later features.
+
+
+## Follow-up — authorized cap-front restart
+
+User authorized restarting this part if necessary. Inspected existing tutorial frames at 51:40, 51:50 and 52:00 (not continuous playback). They show broad planar cap faces beside the diagonal slot, without the imposed ten-by-ten grid. The grid was an unnecessary deviation that generated the awkward cut faces.
+
+Replaced the 112 front-plane faces with two continuous planar n-gons, retaining the exact circular boundary, slot lip, walls, teeth and every outside face. Removed 64 now-unused interior vertices. This follows the observed tutorial face layout rather than forcing a quad grid across an oblique cut. Planar n-gons are intentional at this stage; future subdivision or export triangulation requires its own review.
+
+Tested on the saved file in a disposable Blender process before saving. A repeat application made zero edits. Boundary vertices and outside faces are identical; surface area and manifold checks passed. Shaded comparison is visually unchanged (mean 8-bit channel difference below 0.001), and wireframe inspection confirms the grid and its front-face triangle fans are gone. This is not a claim of perfect tutorial dimensions or final reflective shading.
+
+Saved and reopened the replacement successfully, reran audit/validation and regenerated standard review images. Housing now has 961 faces: 906 quads, 41 triangles and 14 n-gons; one evaluated component, no nonmanifold edges, loose geometry or zero-area faces. Other objects' base fingerprints are unchanged. Review overrides did not alter the saved blend.
+
+Current source: `slot.py` calls `rebuild_cap_face.py`; the same local routine was applied to the saved housing. The earlier 14-diagonal cleanup remains historical and is no longer in the construction path. Full-constructor reproduction remains unverified. Before-state for this follow-up is Git commit `fc5f03b`; the dry-run evidence is `review/case-study/face-rebuild-check.json`.
